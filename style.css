@@ -1,0 +1,84 @@
+h4{
+    color:rgb(189, 55, 55)
+}
+
+h3{
+    color:rgb(194, 161, 64)
+}
+/*預設*/
+*{
+    padding: 0;
+     margin: 0;
+ }
+
+section, footer {
+    border:5px #989898 solid ;
+    padding: 30px 50px;
+    margin: 0px 0px;
+}
+
+/*底線*/
+footer a:hover{
+    text-decoration:underline;
+}
+
+a {
+    color:blueviolet
+  }
+  
+a:hover {
+    color: green;
+}
+
+img {
+    
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/* 夜間模式的樣式 */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+header {
+    border: 5px #989898 solid;
+    padding: 50px 50px; /* 調整頁眉的內邊距來增加高度 */
+    margin: 0px;
+    background-color: #f2f2f2;
+    position: relative;
+    display: flex; /* 使用彈性盒子模型 */
+    align-items: center; /* 垂直居中 */
+}
+
+h1 {
+    margin-right: auto; /* 將 h1 標題移到左側 */
+    line-height: 10px;
+}
+
+#toggleModeButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* 垂直置中 */
+    right: 5%;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style-type: none; /* 移除預設的列表符號 */
+}
+
+ul li {
+    margin-right: 20px; /* 調整列表項目之間的間距 */
+}
